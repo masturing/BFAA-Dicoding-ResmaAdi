@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubUserApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryNight300</item>
+        <item name="colorPrimaryVariant">@color/primaryNight300</item>
+        <item name="colorOnPrimary">@color/primaryNight300</item>
+        <item name="colorContainer">@color/primaryNight</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryNight300</item>
+        <item name="colorSecondaryVariant">#FFF</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/primaryNight</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@drawable/bg_rounded_card_dark</item>
+    </style>
+
+    <style name="BackgroundPrimary">
+        <item name="android:background">@color/primaryNight</item>
+    </style>
+
+    <style name="BackgroundPage">
+        <item name="android:background">@color/primaryNight500</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@color/primaryNight300</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_bold</item>
+    </style>
+
+    <style name="CardViewBackground">
+        <item name="android:backgroundTint">@color/primaryNight300</item>
+    </style>
+
+
+</resources>

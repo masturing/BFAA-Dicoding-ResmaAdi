@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubUserApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#005FEE</item>
+        <item name="colorPrimaryVariant">#2B292E</item>
+        <item name="colorOnPrimary">#222222</item>
+        <item name="colorContainer">#E8F2FB</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">#575757</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/primary</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@drawable/bg_rounded_card</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">#005FEE</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_bold</item>
+    </style>
+
+    <style name="BackgroundPrimary">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="BackgroundPage">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="HeadingTextCard">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_bold</item>
+    </style>
+
+    <style name="HeadingBiggerText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_bold</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_regular</item>
+    </style>
+
+    <style name="NotmalTextLight">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_light</item>
+    </style>
+
+    <style name="NormalTextBold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/plusjakarta_bold</item>
+    </style>
+
+    <style name="CardViewBackground">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+
+    <style name="Theme.GithubUserApp" parent="Base.Theme.GithubUserApp" />
+</resources>
